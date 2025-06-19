@@ -17,7 +17,7 @@ const HomePage = () => {
       <section className={styles.hero}>
         <video
           className={styles.heroVideo}
-          src="/Thirsty-Loin-Coffee-Shop/Coffeev2.mp4" typeof='video/mp4' // Place your video in public/videos
+          src={`${import.meta.env.BASE_URL}videos/Coffeev2.mp4`} typeof='video/mp4' // Place your video in public/videos
           autoPlay
           loop
           muted

@@ -31,9 +31,9 @@ const Contact = () => {
         {/* Contact Info */}
         <div className="contact-info">
           <h3>Our Coffee Shop</h3>
-          <p>📍 123 Roast Street, Brewtown, CA</p>
-          <p>📞 (123) 456-7890</p>
-          <p>✉️ hello@brewhaven.com</p>
+          <p>📍 123 Brew Street, Bean City</p>
+          <p>📞 +91 - 9659623613</p>
+          <p>✉️ support@thirstylion.com</p>
 
           {/* Optional: Embedded Google Map */}
           <iframe

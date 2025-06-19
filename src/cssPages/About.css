@@ -1,0 +1,58 @@
+.about-container {
+  padding: 2rem;
+  max-width: 4000px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #EEEFF1;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-story,
+.about-values,
+.about-team {
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+.team-member:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #EEEFF1;
+}
+.team-member img:hover{
+  border: 2px solid #1B1B1D;
+}
+
+.about-container.h1 {
+  color: #1B1B1D;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.about-story.h2,
+.about-values.h2,
+.about-team .h2 {
+  color: #1B1B1D;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,77 @@
+.menu-section {
+  padding: 60px 20px;
+  background-color: #EEEFF1; /* same as services-section */
+  text-align: center;
+}
+
+.menu-section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #64646A; /* matching services-title */
+}
+
+.menu-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-card {
+  background-color: #fff9f3; /* same as service-card */
+  padding: 25px;
+  border-radius: 16px;
+  width: 280px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.menu-card-title {
+  font-size: 1.5rem;
+  color: #64646A; /* same as service-title */
+  margin-bottom: 10px;
+}
+
+.menu-card-description {
+  font-size: 1rem;
+  color: #333; /* same as service-description */
+  margin-bottom: 20px;
+}
+
+.menu-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-card-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #64646A; /* harmonize with rest */
+}
+
+.menu-card-btn {
+  background-color: #1B1B1D; /* neutral coffee-gray tone */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-card-btn:hover {
+  background-color: #4a4a50;
+}

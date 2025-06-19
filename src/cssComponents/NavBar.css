@@ -1,0 +1,75 @@
+.active {
+  font-weight: bold;
+  color: #ffbe76;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #EEEFF1;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  overflow-x: hidden; /* ensures no horizontal scroll */
+  box-sizing: border-box;
+}
+
+.nav-bar .my_logo {
+  font-size: 24px;
+  color: #1B1B1D;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .my_logo .logo {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav-bar .my_logo .logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-bar .nav-bar__links {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.nav-bar .nav-bar__links a {
+  text-decoration: none;
+  color: #64646A;
+  font-size: 18px;
+}
+
+.nav-bar .nav-bar__links a:hover,
+.nav-bar .nav-bar__links a.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-bar .nav-bar__buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-bar .nav-bar__buttons button {
+   background-color: #1B1B1D;
+  color: #FAF6F0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar .nav-bar__buttons button:hover {
+  background-color: #4a4a50;
+  
+  font-weight: bold;
+}

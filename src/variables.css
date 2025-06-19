@@ -1,0 +1,16 @@
+/* src/styles/variables.css */
+
+:root {
+  --primary-color: #b91c1c;   /* Christmas red */
+  --secondary-color: #065f46; /* Christmas green */
+  --snow-bg: #f4f4f8;
+  --text-dark: #1e1e1e;
+  --font-heading: 'Merriweather', serif;
+  /*
+  --primary-color: #b91c1c;    Christmas red
+  --secondary-color: #065f46;  Christmas green 
+  --snow-bg: #f4f4f8;
+  --text-dark: #1e1e1e;
+  --font-heading: 'Merriweather', serif; 
+   */
+}

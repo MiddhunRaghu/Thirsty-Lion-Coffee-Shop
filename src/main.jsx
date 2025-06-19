@@ -13,7 +13,7 @@ import AuthForm from './pages/AuthForm.jsx'; // Import your AuthForm component
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/thirsty-loin-coffee-shop"> {/* Set the base path for the app */}
+    <BrowserRouter basename="/Thirsty-Lion-Coffee-Shop"> {/* Set the base path for the app */}
       <Routes>
         {/* Wrap everything in Layout (includes Navbar & Footer) */}
         <Route path="/" element={<Layout />}>
